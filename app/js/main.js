@@ -15,6 +15,20 @@ $(function(){
     spacing: "5px",
     readOnly: true
   });
+  $("#rateYo-rew-2").rateYo({
+    rating: 4,
+    starWidth: "45px",
+    ratedFill: "#c11e3c",
+    spacing: "5px",
+    readOnly: true
+  });
+  $("#rateYo-rew-3").rateYo({
+    rating: 4,
+    starWidth: "45px",
+    ratedFill: "#c11e3c",
+    spacing: "5px",
+    readOnly: true
+  });
   $('.service-wrapper .tab').on('click', function(event) {
     var id = $(this).attr('data-id');
       $('.service-wrapper').find('.tab-item').removeClass('active-tab').hide();
@@ -22,5 +36,8 @@ $(function(){
       $(this).addClass('active');
       $('#'+id).addClass('active-tab').fadeIn();
       return false;
+    });
+    $('.menu__btn').on('click', function(){
+      $('.menu__list').slideToggle();
     });
 });

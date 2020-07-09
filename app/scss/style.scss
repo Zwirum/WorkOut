@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
 }
 .header-top{
+  position: relative;
   height: 160px;
   background: linear-gradient(180deg, rgba(27,27,27,1) 0%, rgba(27,27,27,0.8463760504201681) 50%, rgba(27,27,27,0.6474964985994398) 75%, rgba(27,27,27,0) 100%);
 }
@@ -18,6 +19,20 @@
   justify-content: space-between;
   align-items: center;
   height: 160px;
+}
+.menu__btn{
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+  display: none;
+  max-width: 30px;
+}
+.menu__btn-line{
+  height: 4px;
+  width: 30px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 3px;
 }
 .menu__list{
   font-size: 18px;
@@ -54,7 +69,7 @@
   max-height: 410px;
   height: 100%;
   margin-left: 55px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -138,7 +153,7 @@
 }
 .our-services__img{
   img{
-    max-height: 51;
+    max-height: 510px;
   }
   position: absolute;
   bottom: 0;
@@ -312,8 +327,7 @@
   justify-content: space-between;
 }
 .contacts{
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   max-width: 360px;
 }
 .map{
@@ -383,14 +397,14 @@
   margin-bottom: 50px;
 }
 .contacts-page__item{
-  max-width: 350px;
+  margin: 0 5px;
+  max-width: 245px;
   &.contact__list{
     margin-top: 0;
   }
   .contacts__descr{
     margin-top: 15px;
     margin-bottom: 30px;
-    max-width: 185px;
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
