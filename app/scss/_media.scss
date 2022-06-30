@@ -1,48 +1,60 @@
-@media(max-width: 1500px){
+@media(max-width: 1500px) {
   .footer__item {
     margin-bottom: 30px;
   }
+
   .social__inner img {
     width: 40px;
     height: 40px;
   }
+
   .contact__title {
     margin-bottom: 20px;
   }
+
   .contacts {
     max-width: 315px;
   }
+
   .contact__list li+li {
     margin-top: 10px;
   }
+
   .contact__list {
     margin-top: 45px;
   }
+
   .map iframe {
     width: 700px;
   }
-  .footer__inner{
+
+  .footer__inner {
     max-width: 100%;
     padding-top: 70px;
     font-size: 18px;
     line-height: 18px;
     justify-content: center;
-  } 
+  }
+
   .cards__items {
     padding-top: 60px;
   }
+
   .title.card-title {
     margin-top: 50px;
   }
+
   .card__item-img img {
     max-width: 325px;
   }
+
   .card__title {
     font-size: 20px;
     line-height: 20px;
     margin-top: 15px;
     margin-bottom: 30px;
   }
+
   .card__list-advantages {
     min-height: 215px;
     margin-bottom: 10px;
@@ -50,100 +62,155 @@
     font-size: 15px;
     line-height: 15px;
   }
+
   .card__list-advantages li::before {
     height: 10px;
     width: 10px;
     left: -20px;
   }
+
   .card__list-advantages li+li {
     margin-top: 10px;
   }
+
   .card__link {
     font-size: 24px;
     line-height: 24px;
     padding: 18px 20px;
   }
+
   .card__item {
     max-width: 328px;
   }
 }
-@media(max-width: 1200px){
-  .tabs .tab{
-    font-size: 12px;
-    line-height: 12px;
+
+@media(max-width: 1200px) {
+  .tabs .tab {
+    max-width: 23%;
+    font-size: 14px;
+    line-height: 14px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 20px;
-    height: 45px;
-    max-width: 200px;
-    padding: 15px 0;
   }
 }
-@media(max-width: 1100px){
+
+@media(max-width: 1100px) {
+  body {
+    font-size: 12px;
+  }
+  .tabs .tab {
+    max-width: 30%;
+  }
+  .advantages__items {
+    justify-content: center;
+
+    .advantages__item+.advantages__item {
+      margin-left: 15px;
+    }
+  }
+
+  .slider__item {
+    max-height: 500px;
+  }
+
+  .box {
+    padding-top: 50px;
+  }
+
+  .service__item-img img {
+    max-height: 75px;
+  }
+
+  .services__items {
+    padding: 0 15px 50px 15px;
+  }
+
+  .service__item {
+    width: 200px;
+    height: 135px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
   .map iframe {
     width: 500px;
   }
+
   .cards__items {
     padding-bottom: 15px;
   }
+
   .card__link {
     font-size: 18px;
     line-height: 18px;
     padding: 13px 15px;
   }
+
   .card__list-advantages {
     min-height: 175px;
     max-width: 210px;
-    font-size: 12px;
-    line-height: 12px;
   }
+
   .card__list-advantages li::before {
     top: 1px;
   }
+
   .card__title {
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 25px;
   }
+
   .card__item-img img {
     max-width: 250px;
   }
+
   .title.card-title {
     margin-top: 30px;
   }
+
   .cards__items {
     padding-top: 40px;
   }
+
   .card__item+.card__item {
     margin-left: 10px;
   }
-  .card__item{
+
+  .card__item {
     margin-bottom: 30px;
     margin-left: 10px;
     margin-right: 10px;
   }
 }
-@media(max-width: 1000px){
+
+@media(max-width: 1000px) {
   .our-services__img.our-services__img-right {
     right: -60px;
   }
+
   .our-services__img.our-services__img-left {
     left: -30px;
   }
+
   .services-title__inner {
     padding: 30px 0;
   }
-  .our-services__img{
-    img{
+
+  .our-services__img {
+    img {
       max-height: 300px;
     }
   }
+
   .service__item-img img {
     max-height: 60px;
   }
-  .services__items{
+
+  .services__items {
     justify-content: center;
   }
+
   .service__item {
     margin-bottom: 20px;
     margin-left: 10px;
@@ -154,23 +221,29 @@
     width: 150px;
     height: 110px;
   }
+
   .title {
     font-size: 28px;
     line-height: 28px;
     margin-left: 40px;
   }
+
   .our-services {
     margin-top: 25px;
   }
+
   .services {
     background-position: left;
   }
+
   .advantages__items {
     margin-top: 40px;
   }
+
   .advantages__item {
     max-width: 140px;
   }
+
   .advantages__item-text {
     padding: 10px 5px;
     margin-top: 5px;
@@ -178,121 +251,147 @@
     font-size: 12px;
     line-height: 12px;
   }
+
   .advantages__item-img {
     max-width: 50px;
   }
+
   .advantages__title {
     padding: 5px 0;
   }
+
   .advantages__title-text {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 20px;
   }
+
   .header {
-    height: 400px;
+    min-height: 400px;
   }
+
   .header-top__inner {
     height: 105px;
   }
+
   .menu__list {
     font-size: 16px;
     line-height: 16px;
   }
+
   .header__phone {
     font-size: 20px;
     line-height: 20px;
   }
+
   .header-bottom__inner {
     height: 295px;
   }
+
   .header-top {
     height: 105px;
   }
-  .header-bottom {
-    height: 295px;
-  }
+
   .logo {
     max-width: 280px;
   }
+
   .logo__title {
     font-size: 55px;
     line-height: 55px;
     margin-bottom: 25px;
   }
+
   .logo__descr {
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 85px;
   }
+
   .logo__text {
     max-width: 400px;
   }
 }
-@media(max-width: 900px){
+
+@media(max-width: 900px) {
   .rewiev__info {
     padding: 10px 20px;
   }
+
   .rewiev__name {
     font-size: 14px;
     line-height: 14px;
     margin-bottom: 10px;
   }
+
   .clients-rewievs {
     padding: 25px 0;
   }
+
   .leave-rewiev__form .form__bottom {
     margin-bottom: 0px;
   }
+
   .leave-rewiev__form button[type=submit] {
     cursor: pointer;
     font-size: 16px;
     line-height: 16px;
     padding: 10px 15px;
   }
+
   .leave-rewiev__form .input-file__descr {
     font-size: 12px;
     line-height: 12px;
     margin-left: 10px;
   }
+
   .leave-rewiev__form .jq-file {
     margin-bottom: 15px;
     width: 165px;
   }
+
   .leave-rewiev__form .jq-file .jq-file__name {
     font-size: 14px;
     line-height: 14px;
     height: 100%;
     padding: 10px;
   }
-  .leave-rewiev__form textarea{
+
+  .leave-rewiev__form textarea {
     margin-bottom: 15px;
     padding: 10px;
     width: 450px;
     height: 150px;
-    &::placeholder{
+
+    &::placeholder {
       font-size: 14px;
       line-height: 14px;
     }
   }
-  .leave-rewiev__form input[type=text]{
+
+  .leave-rewiev__form input[type=text] {
     margin-bottom: 15px;
     padding: 10px;
     width: 250px;
-    &::placeholder{
+
+    &::placeholder {
       font-size: 14px;
       line-height: 14px;
     }
   }
+
   .leave-rewiev__form {
     font-size: 14px;
     line-height: 14px;
   }
-  .leave-rewiev__form-inner{
+
+  .leave-rewiev__form-inner {
     padding: 25px 0;
   }
+
   .rewievs {
     padding-top: 25px;
   }
+
   .leave-rewiev__text {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -300,28 +399,35 @@
     line-height: 14px;
     margin-left: 15px;
   }
+
   .services-page {
     padding-top: 45px;
     padding-bottom: 45px;
   }
+
   .tab-item__text {
     margin-bottom: 20px;
   }
+
   .tab-item__list {
     margin-bottom: 20px;
   }
+
   .tab-item__zapis {
     font-size: 16px;
     line-height: 16px;
   }
+
   .tab_content {
     margin-top: 40px;
     font-size: 12px;
     line-height: 12px;
   }
-  .tabs{
+
+  .tabs {
     justify-content: space-around;
   }
+
   .contacts-page__inner {
     margin-top: 35px;
     font-size: 16px;
@@ -329,42 +435,54 @@
     margin-bottom: 40px;
     flex-wrap: wrap;
   }
+
   .contacts-page__item .contacts__descr {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 12px;
     line-height: 15px;
   }
+
   .contacts-page {
     padding-top: 50px;
     padding-bottom: 0px;
   }
 }
-@media(max-width: 800px){
-  .form__bottom{
-    .jq-ry-container{
+
+@media(max-width: 800px) {
+  .slider__item {
+    max-height: 400px;
+  }
+  .form__bottom {
+    .jq-ry-container {
       width: 170px !important;
     }
   }
+
   .rewiev__info-inner {
     padding: 0 5px;
   }
+
   .rewiev__info {
     padding: 10px 5px;
   }
-  .jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg{
+
+  .jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg {
     width: 30px;
     height: 30px;
   }
+
   .rewiev-item {
     margin-top: 20px;
     max-width: 500px;
   }
+
   .rewiev__photo {
     height: 100px;
     width: 125px;
   }
-  .rewiev__comment{
+
+  .rewiev__comment {
     font-size: 13px;
     line-height: 13px;
     height: 115px;
@@ -372,86 +490,114 @@
     width: 100%;
     margin-bottom: 15px;
   }
-  .rewiev__info-inner{
+
+  .rewiev__info-inner {
     flex-wrap: wrap;
   }
+
   .contacts-page .map iframe {
     height: 375px;
   }
+
   .contacts-page__inner {
     margin-bottom: 0px;
   }
+
   .contact__title {
     margin-bottom: 10px;
   }
-  .contacts__descr{
+
+  .contacts__descr {
     max-width: 300px;
   }
-  .contacts-page__item{
+
+  .contacts-page__item {
     max-width: 100%;
     width: 100%;
     margin-bottom: 35px;
   }
+
   .contacts-page__item.contact__list {
     margin-bottom: 35px;
   }
+
   .contacts {
     max-width: 280px;
   }
-  .map{
+
+  .map {
     width: 100%;
-    iframe{
+    animation-name: none;
+
+    iframe {
       width: 100%;
       height: 325px;
     }
   }
-  .footer__inner{
+
+  .footer__inner {
     font-size: 16px;
     line-height: 16px;
     padding-top: 25px;
     flex-wrap: wrap;
-    justify-content: start;
   }
+
   .contact__list {
     margin-top: 30px;
     margin-bottom: 15px;
   }
+
   .footer__item {
     margin-bottom: 15px;
   }
+
   .card__list-advantages {
     min-height: 145px;
   }
+
   .card__title {
     margin-top: 10px;
     margin-bottom: 15px;
   }
+
   .card__list-advantages li::before {
     height: 5px;
     width: 5px;
     left: -15px;
   }
+
   .card__list-advantages li+li {
     margin-top: 5px;
   }
+
   .card__item {
     max-width: 250px;
     margin-bottom: 25px;
   }
-  .cards__items{
+
+  .cards__items {
     flex-wrap: wrap;
   }
-  .advantages__items{
+
+  .advantages__items {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .advantages__item{
+
+  .advantages__item {
     margin: 5px 5px;
   }
 }
-@media(max-width: 700px){
+
+@media(max-width: 700px) {
   .service-wrapper {
     margin-top: 40px;
+  }
+  .tabs .tab {
+    max-width: 45%;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 20px;
   }
   .tab-item__list li::before {
     width: 5px;
@@ -459,32 +605,41 @@
     left: -10px;
     top: 1px;
   }
+
   .tab-item__list {
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
   .tab-item__list li {
     margin-right: 5px;
   }
-  .tab-item__text{
+
+  .tab-item__text {
     font-size: 12px;
     line-height: 12px;
   }
+
   .tab_content {
     margin-top: 30px;
     font-size: 10px;
     line-height: 10px;
   }
+
   .tab-item__zapis {
     font-size: 14px;
     line-height: 16px;
   }
+
   .our-services {
     margin-top: 0px;
   }
-  .menu__btn{
+
+  .menu__btn {
     display: block;
   }
-  .menu{
+
+  .menu {
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -492,95 +647,132 @@
     top: 0;
     background-color: #000;
   }
-  .menu__list{
+
+  .menu__list {
     display: none;
     padding: 115px 0;
     width: 100%;
-    li{
+    height: 100vh;
+
+    li {
       display: block;
       text-align: center;
-      a{
+
+      a {
         display: block;
         padding: 15px 0;
       }
     }
+
     li+li {
       margin-top: 10px;
       margin-left: 0px;
     }
   }
+
   .header-top__inner {
     height: 65px;
   }
+
   .header-top {
     height: 65px;
   }
+
   .header {
-    height: 225px;
+    min-height: 300px;
   }
-  .header-bottom {
-    height: 160px;
-  }
+
   .header-bottom__inner {
     justify-content: center;
-    height: 160px;
+    height: 200px;
   }
+
   .logo__title {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 15px;
   }
+
   .logo__descr {
     font-size: 12px;
     line-height: 12px;
     margin-bottom: 60px;
   }
+
   .header__phone {
     font-size: 16px;
     line-height: 16px;
   }
+
   .logo__text {
     max-width: 225px;
   }
+
   .logo__title::before {
     height: 3px;
     bottom: -8px;
   }
+
   .logo {
-    max-width: 150px;
+    max-width: 215px;
     margin-left: 25px;
   }
+
+  .menu__btn-line {
+    height: 4px;
+    width: 30px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+  }
+
+  .header-bottom {
+    padding-top: 100px;
+  }
+
   .container {
     padding: 0 5px;
   }
 }
-@media(max-width: 600px){
-  .leave-rewiev__form textarea{
+
+@media(max-width: 600px) {
+  .slider__item {
+    max-height: 325px;
+  }
+  .leave-rewiev__form textarea {
     width: 100%;
   }
-  .leave-rewiev__form{
+
+  .leave-rewiev__form {
     padding: 0;
   }
+
   .leave-rewiev__text {
     margin-bottom: 15px;
     font-size: 12px;
     line-height: 12px;
   }
-  .tab-item__zapis{
+
+  .tab-item__zapis {
     max-width: 305px;
   }
-  .tab-item__text{
+
+  .tab-item__text {
     max-width: 400px;
   }
+
   .tab_content {
     margin-top: 10px;
   }
+
   .our-services__img img {
     max-height: 250px;
   }
+
   .service__item-img img {
     max-height: 45px;
   }
+
   .service__item {
     margin-bottom: 15px;
     margin-left: 5px;
@@ -591,84 +783,100 @@
     width: 135px;
     height: 85px;
   }
+
   .our-services__inner {
     padding-top: 15px;
   }
+
   .title {
     font-size: 26px;
     line-height: 26px;
     margin-left: 25px;
   }
+
   .title::before {
     height: 2px;
     bottom: -5px;
     right: 10%;
   }
+
   .services-title__inner {
     padding: 20px 0;
   }
+
   .services {
     padding-top: 30px;
   }
+
   .advantages__title-text {
     font-size: 18px;
     line-height: 18px;
   }
+
   .advantages__items {
     margin-top: 25px;
   }
+
   .advantages__title-line {
     right: 30%;
   }
 }
-@media(max-width: 500px){
+
+@media(max-width: 500px) {
   .services-page {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  .tabs .tab {
-    padding: 10px 0;
-    font-size: 10px;
-    line-height: 10px;
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-bottom: 15px;
-    height: 40px;
-    max-width: 150px;
+  .slider__item {
+    max-height: 250px;
   }
+  .tabs .tab {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
   .tab_content {
     margin-top: 15px;
   }
 }
-@media(max-width: 400px){
-  .leave-rewiev__form .form__bottom{
+
+@media(max-width: 400px) {
+  .leave-rewiev__form .form__bottom {
     flex-wrap: wrap;
   }
-  .leave-rewiev__form button[type=submit]{
+
+  .leave-rewiev__form button[type=submit] {
     margin-top: 15px;
   }
+
   .leave-rewiev__form .input-file__descr {
     font-size: 11px;
     line-height: 10px;
     margin-left: 3px;
     padding-top: 8px;
   }
+
   .leave-rewiev__form .jq-file {
     width: 150px;
   }
+
   .leave-rewiev__form .jq-file .jq-file__name {
     font-size: 12px;
     line-height: 12px;
   }
+
   .our-services__img.our-services__img-left {
     left: 0px;
   }
+
   .our-services__img img {
     max-height: 405px;
   }
+
   .our-services__img.our-services__img-right {
     display: none;
   }
+
   .advantages__item-text {
     padding: 6px 5px;
     margin-top: 3px;
@@ -676,65 +884,79 @@
     font-size: 10px;
     line-height: 10px;
   }
+
   .advantages__item {
     max-width: 115px;
     margin: 2px 2px;
   }
+
   .advantages__item-img {
     max-width: 40px;
   }
+
   .advantages__title-text {
     font-size: 14px;
     line-height: 14px;
   }
+
   .advantages__title-line {
     right: 15%;
   }
-  
+
   .header {
     height: 190px;
   }
+
   .header-bottom__inner {
     height: 141px;
   }
-  .header-bottom{
+
+  .header-bottom {
     height: 141px;
   }
+
   .logo {
     max-width: 120px;
     margin-left: 20px;
   }
+
   .logo__descr {
     font-size: 10px;
     line-height: 10px;
     margin-bottom: 50px;
   }
+
   .logo__title {
     font-size: 26px;
     line-height: 26px;
     margin-bottom: 13px;
   }
+
   .logo__text {
     max-width: 145px;
   }
+
   .header-top__inner {
     height: 55px;
   }
+
   .header-top {
     height: 55px;
   }
 }
-@media(max-width: 350px){
+
+@media(max-width: 350px) {
   .contacts-page .map iframe {
     height: 325px;
   }
+
   .advantages__items {
     justify-content: space-around;
-  } 
+  }
 }
 
-@media(min-width: 700px){
-  .menu__list{
+@media(min-width: 700px) {
+  .menu__list {
     display: flex !important;
   }
 }

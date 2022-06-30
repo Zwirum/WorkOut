@@ -14,6 +14,20 @@
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
 }
+.menu__btn{
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+  display: none;
+  max-width: 30px;
+}
+.menu__btn-line{
+  height: 4px;
+  width: 30px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 3px;
+}
 .header__bg-slider_inner{
   position: absolute;
   content: '';
@@ -302,7 +316,7 @@
 }
 .cards__items{
   padding-top: 100px;
-  padding-bottom: 40px;
+  padding: 0 15px 40px 15px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -729,7 +743,7 @@
 }
 .tabs{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   .tab{
     height: 53px;
